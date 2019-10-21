@@ -74,16 +74,20 @@ body {
   display: none;
 }
 
-.main {
-  height: calc(100vh - 81px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
-.welcome {
-  max-width: 30%;
-  text-align: center;
+.portfolio__item {
+  position: relative;
+}
+.portfolio__image-hover {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles-portfolio.css.map */

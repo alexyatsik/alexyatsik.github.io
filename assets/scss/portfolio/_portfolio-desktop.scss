@@ -1,0 +1,22 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.portfolio {
+
+    &__item {
+        position: relative;
+
+        
+    }
+
+    &__image-hover {
+        display: none;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
