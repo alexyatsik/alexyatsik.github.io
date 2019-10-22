@@ -1,0 +1,49 @@
+@media (max-width: 767px) {
+
+    .footer {
+
+        background-image: url('../img/footer-bg-320.png');
+
+        &__content {
+            padding-top: 97px;
+
+            .header__buttons {
+                padding: 72px 0 127px;
+            }
+        }
+
+        &__basement {
+            padding: 20px 0 15px;
+        }
+    }
+
+    .download-app {
+
+        &__icon {
+            width: 73px;
+            height: 78px;
+
+            background-image: url('../img/download-320.png');
+
+            margin-bottom: 57px;
+        }
+
+        &__header {
+            padding-left: 0;
+        }
+
+        &__title {
+            font-size: 34px;
+            letter-spacing: 1.7px;
+        }
+
+        &__sub-title {
+            font-size: 15px;
+            letter-spacing: 0.75px;
+        }
+    }
+
+    .social-link {
+        font-size: 15px;
+    }
+}
