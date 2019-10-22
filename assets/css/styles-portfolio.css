@@ -83,9 +83,11 @@ body {
 .portfolio__list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .portfolio__item {
   position: relative;
+  margin-bottom: 50px;
 }
 .portfolio__item:hover .portfolio__image-hover, .portfolio__item:hover .portfolio__curtain {
   display: block;

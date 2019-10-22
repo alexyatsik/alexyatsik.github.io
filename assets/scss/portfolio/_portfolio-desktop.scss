@@ -9,10 +9,12 @@
     &__list {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
     }
 
     &__item {
         position: relative;
+        margin-bottom: 50px;
 
         &:hover .portfolio__image-hover,
         &:hover .portfolio__curtain {
