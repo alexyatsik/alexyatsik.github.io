@@ -10,11 +10,14 @@
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+
+        margin-top: 50px
     }
 
     &__item {
         position: relative;
-        margin-top: 50px;
+
+        margin-bottom: 50px;
 
         &:hover .portfolio__image-hover,
         &:hover .portfolio__curtain {
