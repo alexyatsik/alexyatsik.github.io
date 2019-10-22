@@ -1,8 +1,11 @@
 @media(max-width: 767px) {
 
+    body {
+        min-width: 320px;
+    }
+
     .container {
         padding: 0 10px;
-        min-width: 320px;
     }
 
     .logo {
