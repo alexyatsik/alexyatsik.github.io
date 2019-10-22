@@ -1,0 +1,375 @@
+.main__inner,
+.main__inner-players {
+    width: 100%;
+
+    display: flex;
+    
+}
+
+.main__inner {
+    justify-content: flex-end;
+}
+
+.main__inner-players {
+    justify-content: flex-start;
+}
+
+.title {
+    color: #e7e7e7;
+    font-family: $font-stack--proxima-nova-bd;
+    font-size: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    &--padding-left {
+        padding-left: 130px;
+    }
+}
+
+.section-stripes {
+    
+    .title {
+        width: 45%;
+
+        margin-top: 112px;
+    }
+
+    &__switcher {
+        display: none;
+    }
+
+    overflow: hidden;
+}
+
+.stripe {
+    position: absolute;
+
+    width: 800px;
+    height: 4px;
+
+    background-color: #9273e6;
+    transform: rotate(-50deg);
+
+    z-index: 0;
+
+    &--width-425px {
+        width: 425px;
+    }
+}
+
+.section-stripes__image {
+
+    position: absolute;
+
+    //position-footballer
+    left: 150px;
+    top: 40px;
+
+    &--position-basketballer {
+        top: -30px;
+        left: 620px;
+    }
+    
+    .stripe {
+
+        &--position-1 {
+            left: -100px;
+            top: 350px;
+        }
+
+        &--position-basketballer-1 {
+            top: 620px;
+            left: 100px;
+        }
+
+        &--position-basketballer-2 {
+            top: 210px;
+            left: 590px;
+        }
+    }
+
+    .section-stripes__background-image {
+
+        position: absolute;
+        
+        z-index: 1;
+        
+        &--background-image_footballer {
+            width: 678px;
+            height: 950px;
+
+            background-image: url('../img/footballer.png');
+            z-index: 1;
+        }
+
+        &--background-image_basketballer {
+            width: 991px;
+            height: 815px;
+
+            background-image: url('../img/basketballer.png');
+            z-index: 1;
+        }
+    }
+
+    .plus-sign {
+
+        &--opacity {
+            opacity: 0.3;
+        }
+
+        &--position-1 {
+            top: 140px;
+            left: 107px;
+        }
+
+        &--position-2 {
+            top: 130px;
+            left: 90px;
+        }
+
+        &--position-basketballer-1 {
+            left: 290px;
+            top: 120px;
+        }
+
+        &--position-basketballer-2 {
+            left: 310px;
+            top: 140px;
+        }
+
+        &--position-basketballer-3 {
+            left: 780px;
+            top: 450px;
+            
+        }
+    }
+}
+
+
+.plus-sign {
+    position: absolute;
+}
+
+.sub-section {
+
+    &__content {
+        width: 45%;
+        
+        display: flex;
+        flex-direction: column;
+
+        &--padding-left {
+            padding-left: 130px;
+        }
+
+        &--width_50per {
+            width: 50%;
+        }
+    } 
+
+    &__header {
+        display: flex;
+    }
+
+    &__number {
+        color: #000000;
+        font-family: $font-stack--proxima-nova-bd;
+        font-size: 18px;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+
+        &--font-size_24px {
+            font-size: 24px;
+        }
+
+        &--letter-spacing_1d2px {
+            letter-spacing: 1.2px;
+        }
+
+        &--color_purple {
+            color: #9173e6;
+        }
+        
+        &--color_white {
+            color: #f5f6f7;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+
+            width: 100%;
+            height: 5px;
+
+            margin-top: 6px;
+
+            border-radius: 3px;
+            background-color: #5e42b0;
+        }
+
+        &--underline-color_gray {
+            
+            &::after {
+                background-color: #efefef;
+            }
+        }
+
+        &--underline-color_white {
+
+            &::after {
+                background-color: #fff;
+            }
+        }
+
+        &--underline-color_purple {
+
+            &::after {
+                background-color: #8e7bc8;
+            }
+        }
+
+    }
+
+    &__title {
+        color: #c1c1c1;
+        font-family: $font-stack--proxima-nova-bd;
+        font-size: 36px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.8px;
+
+        margin-left: 9px;
+    }
+
+    &__description {
+
+        &--color_white {
+            color: #fff;
+        }
+
+        color: #000000;
+        font-family: $font-stack--proxima-nova-rg;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 1px;
+
+        margin-top: 30px;
+    }
+
+    &--background-color_light-gray {
+        background-color: #f5f4fa;
+    }
+
+    &--background-color_gray {
+        background-color: #f5f5f7;
+    }
+
+    &--background-color_light-purple {
+        background-color: #5e42b0;
+    }
+
+    &--background-color_dark-purple {
+        background-color: #0a0e34;
+    }
+
+    .sub-section__connection {
+        margin: 93px 0 65px 0;
+    }
+
+    .sub-section__collaboration {
+        margin: 62px 0;
+    }
+
+    .sub-section__growth {
+        margin: 95px 0;
+    }
+}
+
+.section-chesslike {
+    max-width: 1920px;    
+
+    display: flex;
+
+    &--flex-direction_row-reverse {
+        flex-direction: row-reverse;
+    }
+
+    position: relative;
+
+    margin: 0 auto;
+
+    &__image {
+        width: 50%;
+
+        background-image: url('../img/be-active.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        &--background-image_find-contact {
+            background-image: url('../img/find-contact.png');
+        }
+
+        &--background-image_work-it {
+            background-image: url('../img/work-it.png');
+        }
+    }
+
+    &__lable {
+        width: 168px;
+        height: 155px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #5e42b0;
+        
+        position: absolute;
+        transform: translateX(-50%);
+
+        top: 211px;
+        left: 50%;
+    }
+
+    &__description {
+        width: 50%;
+
+        padding: 257px 0 122px 128px;
+
+        &::after {
+            content: '';
+            display: block;
+
+            width: 22px;
+            height: 5px;
+
+            margin-top: 87px;
+            
+            border-radius: 3px;
+            background-color: #5e42b0;
+        }
+    }
+
+    &__text {
+        max-width: 322px;
+
+        padding: 119px 0 0 0;
+
+        color: #000000;
+        font-family: $font-stack--proxima-nova-rg;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 1.2px;
+
+        &--max-width_400px {
+            max-width: 400px;
+        }
+
+        &--max-width_520px {
+            max-width: 520px;
+        }        
+    }
+}
+

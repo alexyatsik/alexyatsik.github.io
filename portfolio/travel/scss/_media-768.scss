@@ -1,0 +1,115 @@
+@media(max-width: 1079px) {
+
+    .request-form {
+        margin: 20px auto;
+        position: static;
+        width: 70%;
+    }
+
+    .input-text {
+        width: 90%
+    }
+
+    .header {
+
+        &__description {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        &__text {
+            margin-top: 20px;
+            max-width: 70%;
+
+            text-align: center;
+        }
+    }
+
+    .our-services {
+        &__title {
+            margin-top: 20px;
+        }
+    }
+
+    .services {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .our-story {
+        margin-top: 20px;
+        
+        &__text {
+            margin: 20px auto;
+        }
+    }
+
+    .pricing {
+        min-height: 490px;
+
+        &__title {
+            padding-top: 20px;
+        }
+    }
+
+    .cards {
+        margin-top: 20px;
+    }
+
+    .card {
+        width: 32%;
+    }
+
+    .test-n-gallery {
+        margin-top: 50px;
+    }
+    
+    .text-n-gallery__wrap {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonials {
+        max-width: 800px;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .testimonial {
+            
+            width: 80%;
+            margin-left: -80px;
+
+            &__text {
+                max-width: 90%;
+            }
+
+            &__photo {
+                top: 5%;
+            }
+        }
+    }
+
+    .gallery {
+        margin-top: 20px;
+    }
+
+    .footer {
+        margin-top: 20px;
+
+        .copyright {
+            padding: 50px 0;
+        }
+    }
+}
