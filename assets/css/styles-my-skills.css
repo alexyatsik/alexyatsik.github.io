@@ -78,6 +78,19 @@ body {
   display: none;
 }
 
+.tiny-navigation {
+  display: none;
+}
+
+@media (max-width: 590px) {
+  .navigation {
+    display: none;
+  }
+
+  .tiny-navigation {
+    display: block;
+  }
+}
 .main {
   height: calc(100vh - 81px);
   display: flex;

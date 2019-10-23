@@ -1,0 +1,14 @@
+.tiny-navigation {
+    display: none;
+}
+
+@media(max-width: 590px) {
+    
+    .navigation {
+        display: none;
+    }
+
+    .tiny-navigation {
+        display: block;
+    }
+}
