@@ -1,6 +1,10 @@
 @media(max-width: 1050px) {
     .portfolio {
 
+        &__list {
+            justify-content: space-around;
+        }
+
         &__image {
             width: 400px;
         }
