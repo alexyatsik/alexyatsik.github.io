@@ -84,11 +84,11 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 4.7169811321%;
 }
 .portfolio__item {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 4.7169811321%;
 }
 .portfolio__item:hover .portfolio__image-hover, .portfolio__item:hover .portfolio__curtain {
   display: block;
