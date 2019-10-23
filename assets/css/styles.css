@@ -17,6 +17,7 @@ body {
   background-color: #2f2f2f;
   color: #8a8a8a;
   font-family: "Alegre Sans", sans-serif;
+  min-width: 320px;
 }
 
 .header {
@@ -74,12 +75,6 @@ body {
   transform: scale(1.2);
 }
 
-.tiny-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .active-page {
   font-size: 20px;
   color: #fff;
@@ -100,7 +95,9 @@ body {
   }
 
   .tiny-navigation {
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 .main {
@@ -113,6 +110,18 @@ body {
 .welcome {
   max-width: 100%;
   text-align: center;
+}
+
+@media (max-width: 590px) {
+  .title {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .text {
+    font-size: 15px;
+    line-height: 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

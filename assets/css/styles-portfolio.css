@@ -17,6 +17,7 @@ body {
   background-color: #2f2f2f;
   color: #8a8a8a;
   font-family: "Alegre Sans", sans-serif;
+  min-width: 320px;
 }
 
 .header {
@@ -74,12 +75,6 @@ body {
   transform: scale(1.2);
 }
 
-.tiny-navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .active-page {
   font-size: 20px;
   color: #fff;
@@ -100,7 +95,9 @@ body {
   }
 
   .tiny-navigation {
-    display: block;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 .container {
@@ -176,10 +173,6 @@ body {
   }
 }
 @media (max-width: 550px) {
-  body {
-    min-width: 320px;
-  }
-
   .container {
     padding: 0 10px;
   }
