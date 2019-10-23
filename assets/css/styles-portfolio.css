@@ -128,5 +128,10 @@ body {
     width: 400px;
   }
 }
+@media (max-width: 860px) {
+  .portfolio__image {
+    width: 300px;
+  }
+}
 
 /*# sourceMappingURL=styles-portfolio.css.map */
