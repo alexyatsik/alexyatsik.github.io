@@ -128,10 +128,12 @@ body {
   .hamburger__menu-stripes:after, .hamburger__menu-stripes:before {
     content: "";
     display: block;
+    height: 100%;
+    width: 100%;
     background-color: #cacaca;
   }
   .hamburger__menu-stripes:after {
-    transform: translateY(-12px);
+    transform: translateY(-17px);
   }
   .hamburger__menu-stripes:before {
     transform: translateY(12px);

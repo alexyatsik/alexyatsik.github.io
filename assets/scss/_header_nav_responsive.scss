@@ -43,11 +43,14 @@
 
                 display: block;
 
+                height: 100%;
+                width: 100%;
+
                 background-color: $title-color;
             }
 
             &:after {
-                transform: translateY(-12px);
+                transform: translateY(-17px);
             }
 
             &:before {
