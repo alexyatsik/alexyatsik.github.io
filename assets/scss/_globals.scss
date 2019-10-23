@@ -42,6 +42,19 @@ body {
     line-height: 40px;
 }
 
+@media(max-width: 590px) {
+    
+    .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .text {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
 .link {
     display: inline-block;
 
