@@ -96,21 +96,6 @@ body {
   display: none;
 }
 
-.tiny-navigation {
-  display: none;
-}
-
-@media (max-width: 590px) {
-  .navigation {
-    display: none;
-  }
-
-  .tiny-navigation {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-}
 .main {
   height: calc(100vh - 81px);
   display: flex;
