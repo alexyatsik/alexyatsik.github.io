@@ -125,14 +125,15 @@ body {
     height: 5px;
     background-color: #cacaca;
   }
-  .hamburger__menu-stripes:after {
+  .hamburger__menu-stripes:after, .hamburger__menu-stripes:before {
     content: "";
     display: block;
+    background-color: #cacaca;
+  }
+  .hamburger__menu-stripes:after {
     transform: translateY(-12px);
   }
   .hamburger__menu-stripes:before {
-    content: "";
-    display: block;
     transform: translateY(12px);
   }
   .hamburger__opened {

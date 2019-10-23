@@ -37,19 +37,20 @@
 
             background-color: $title-color;
 
-            &:after {
-                content:'';
-
-                display: block;
-
-                transform: translateY(-12px);
-            }
-
+            &:after,
             &:before {
                 content:'';
 
                 display: block;
 
+                background-color: $title-color;
+            }
+
+            &:after {
+                transform: translateY(-12px);
+            }
+
+            &:before {
                 transform: translateY(12px);
             }
         }
