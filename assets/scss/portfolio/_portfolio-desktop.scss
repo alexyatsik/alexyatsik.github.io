@@ -50,13 +50,14 @@
         height: 100%;
 
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
     }
 
     &__tech-item {
         padding: 5px 10px;
-        margin: 5px;
+        margin: 2px;
 
         font-weight: 700;
 
