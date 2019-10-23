@@ -59,9 +59,6 @@ body {
 .link:focus {
   outline: none;
 }
-.link.active {
-  color: #fff;
-}
 
 .navigation__list {
   display: flex;
@@ -71,6 +68,10 @@ body {
   transform: scale(1.2);
   transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   color: unset;
+}
+.navigation__link.active {
+  color: #fff;
+  transform: scale(1.2);
 }
 
 .disabled {

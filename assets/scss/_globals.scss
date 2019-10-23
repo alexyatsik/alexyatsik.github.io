@@ -61,9 +61,7 @@ body {
         outline: none;
     }
 
-    &.active {
-        color: #fff;
-    }
+    
 }
 
 .navigation {
@@ -80,6 +78,12 @@ body {
             transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
 
             color: unset;
+        }
+
+        &.active {
+            color: #fff;
+
+            transform: scale(1.2);
         }
     }
 }
