@@ -74,6 +74,18 @@ body {
   transform: scale(1.2);
 }
 
+.tiny-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.active-page {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 800;
+}
+
 .disabled {
   display: none;
 }
@@ -99,7 +111,7 @@ body {
 }
 
 .welcome {
-  max-width: 30%;
+  max-width: 100%;
   text-align: center;
 }
 
