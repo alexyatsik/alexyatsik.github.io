@@ -123,4 +123,10 @@ body {
   color: #8a8a8a;
 }
 
+@media (max-width: 1050px) {
+  .portfolio__image {
+    width: 400px;
+  }
+}
+
 /*# sourceMappingURL=styles-portfolio.css.map */
