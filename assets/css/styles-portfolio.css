@@ -93,6 +93,9 @@ body {
 .portfolio__item:hover .portfolio__image-hover, .portfolio__item:hover .portfolio__curtain {
   display: block;
 }
+.portfolio__image {
+  width: 47.1698113208%;
+}
 .portfolio__image-hover {
   display: none;
   position: absolute;
