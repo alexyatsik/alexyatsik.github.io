@@ -59,6 +59,9 @@ body {
 .link:focus {
   outline: none;
 }
+.link.active {
+  color: #fff;
+}
 
 .navigation__list {
   display: flex;

@@ -60,6 +60,10 @@ body {
     &:focus {
         outline: none;
     }
+
+    &.active {
+        color: #fff;
+    }
 }
 
 .navigation {
