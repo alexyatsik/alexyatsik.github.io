@@ -112,6 +112,9 @@ body {
   }
 
   .hamburger__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 40px;
     height: 40px;
     background-color: #2f2f2f;
@@ -123,9 +126,13 @@ body {
     background-color: #cacaca;
   }
   .hamburger__menu-stripes:after {
+    content: "";
+    display: block;
     transform: translateY(-12px);
   }
   .hamburger__menu-stripes:before {
+    content: "";
+    display: block;
     transform: translateY(12px);
   }
   .hamburger__opened {
