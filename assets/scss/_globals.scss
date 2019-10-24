@@ -6,6 +6,12 @@ a {
     text-decoration: none;
 }
 
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 body {
     background-color: $bg-color;
     color: $font-color;
@@ -26,6 +32,14 @@ body {
         justify-content: center;
         align-items: center;
     }
+}
+
+.main {
+    height: calc(100vh - 81px);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
