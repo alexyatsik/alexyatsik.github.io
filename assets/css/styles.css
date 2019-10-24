@@ -156,13 +156,6 @@ body {
     z-index: 10;
   }
 }
-/*.main {
-    height: calc(100vh - 81px);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
 .welcome {
   max-width: 100%;
   text-align: center;

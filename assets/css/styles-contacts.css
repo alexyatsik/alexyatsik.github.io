@@ -156,16 +156,24 @@ body {
     z-index: 10;
   }
 }
-/*.main {
-    height: calc(100vh - 81px);
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-.welcome {
-  max-width: 30%;
-  text-align: center;
+.contacts {
+  padding-top: 30px;
+}
+.contacts__list {
+  display: flex;
+  flex-direction: column;
+}
+.contacts__item {
+  display: flex;
+  font-size: 30px;
+  font-weight: 400;
+  color: #8a8a8a;
+}
+.contacts__type {
+  color: #cacaca;
+}
+.contacts__link:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=styles-contacts.css.map */

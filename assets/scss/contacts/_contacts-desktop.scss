@@ -1,0 +1,29 @@
+@import '../variables';
+
+.contacts {
+    padding-top: 30px;
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        display: flex;
+
+        font-size: 30px;
+        font-weight: 400;
+        color: $font-color;
+    }
+
+    &__type {
+        color: $title-color;
+    }
+
+    &__link {
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
