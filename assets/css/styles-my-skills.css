@@ -206,16 +206,16 @@ body {
   background-image: url("/assets/img/skills/skill-star-yellow.png");
   background-repeat: repeat-x;
 }
-.skills .mastery-2 {
+.skills .mastery-2::after {
   width: 60px;
 }
-.skills .mastery-3 {
+.skills .mastery-3::after {
   width: 90px;
 }
-.skills .mastery-4 {
+.skills .mastery-4::after {
   width: 120px;
 }
-.skills .mastery-5 {
+.skills .mastery-5::after {
   width: 150px;
 }
 

@@ -68,19 +68,19 @@
             }
         }
         
-        &-2 {
+        &-2::after {
             width: 60px;
         }
 
-        &-3 {
+        &-3::after {
             width: 90px;
         }
 
-        &-4 {
+        &-4::after {
             width: 120px;
         }
 
-        &-5 {
+        &-5::after {
             width: 150px;
         }
     }
