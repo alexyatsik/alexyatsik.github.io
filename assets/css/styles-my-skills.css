@@ -162,6 +162,15 @@ body {
 
 .skills {
   padding-top: 30px;
+  /*&__mastery {
+      width: 150px;
+      height: 30px;
+
+      background-image: url('/assets/img/skills/skill-star-black.png');
+      background-repeat: repeat-x;
+
+      align-self: center;
+  }*/
 }
 .skills__list {
   display: flex;
@@ -179,57 +188,35 @@ body {
 .skills__name {
   text-align: center;
 }
-.skills__mastery {
-  width: 150px;
+.skills .mastery-1, .skills .mastery-2, .skills .mastery-3, .skills .mastery-4, .skills .mastery-5 {
   height: 30px;
+  width: 150px;
+  position: relative;
   background-image: url("/assets/img/skills/skill-star-black.png");
   background-repeat: repeat-x;
-  align-self: center;
-  /*&::after {
-      content: '';
-      display: block;
-
-      position: absolute;
-
-      height: 100%;
-      width: 30px;
-
-      left: 0;
-      top: 0;
-
-      background-image: url('/assets/img/skills/skill-star-yellow.png');
-      background-repeat: no-repeat;
-  }*/
 }
-.skills .mastery-1 {
-  height: 30px;
+.skills .mastery-1::after, .skills .mastery-2::after, .skills .mastery-3::after, .skills .mastery-4::after, .skills .mastery-5::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: 30px;
   background-image: url("/assets/img/skills/skill-star-yellow.png");
   background-repeat: repeat-x;
 }
 .skills .mastery-2 {
-  height: 30px;
   width: 60px;
-  background-image: url("/assets/img/skills/skill-star-yellow.png");
-  background-repeat: repeat-x;
 }
 .skills .mastery-3 {
-  height: 30px;
   width: 90px;
-  background-image: url("/assets/img/skills/skill-star-yellow.png");
-  background-repeat: repeat-x;
 }
 .skills .mastery-4 {
-  height: 30px;
   width: 120px;
-  background-image: url("/assets/img/skills/skill-star-yellow.png");
-  background-repeat: repeat-x;
 }
 .skills .mastery-5 {
-  height: 30px;
   width: 150px;
-  background-image: url("/assets/img/skills/skill-star-yellow.png");
-  background-repeat: repeat-x;
 }
 
 /*# sourceMappingURL=styles-my-skills.css.map */

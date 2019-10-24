@@ -26,74 +26,62 @@
         text-align: center;
     }
 
-    &__mastery {
+    /*&__mastery {
         width: 150px;
         height: 30px;
-
-        //position: relative;
 
         background-image: url('/assets/img/skills/skill-star-black.png');
         background-repeat: repeat-x;
 
         align-self: center;
-
-        /*&::after {
-            content: '';
-            display: block;
-
-            position: absolute;
-
-            height: 100%;
-            width: 30px;
-
-            left: 0;
-            top: 0;
-
-            background-image: url('/assets/img/skills/skill-star-yellow.png');
-            background-repeat: no-repeat;
-        }*/
-    }
+    }*/
 
     .mastery {
 
-        &-1 {
-            height: 30px;
-            width: 30px;
-
-            background-image: url('/assets/img/skills/skill-star-yellow.png');
-            background-repeat: repeat-x;
-        }
-
-        &-2 {
-            height: 30px;
-            width: 60px;
-
-            background-image: url('/assets/img/skills/skill-star-yellow.png');
-            background-repeat: repeat-x;
-        }
-
-        &-3 {
-            height: 30px;
-            width: 90px;
-
-            background-image: url('/assets/img/skills/skill-star-yellow.png');
-            background-repeat: repeat-x;
-        }
-
-        &-4 {
-            height: 30px;
-            width: 120px;
-
-            background-image: url('/assets/img/skills/skill-star-yellow.png');
-            background-repeat: repeat-x;
-        }
-
+        &-1,
+        &-2,
+        &-3,
+        &-4,
         &-5 {
             height: 30px;
             width: 150px;
 
-            background-image: url('/assets/img/skills/skill-star-yellow.png');
+            position: relative;
+
+            background-image: url('/assets/img/skills/skill-star-black.png');
             background-repeat: repeat-x;
+
+            &::after {
+                content: '';
+                display: block;
+
+                position: absolute;
+
+                top: 0;
+                left: 0;
+
+                height: 100%;
+                width: 30px;
+
+                background-image: url('/assets/img/skills/skill-star-yellow.png');
+                background-repeat: repeat-x;
+            }
+        }
+        
+        &-2 {
+            width: 60px;
+        }
+
+        &-3 {
+            width: 90px;
+        }
+
+        &-4 {
+            width: 120px;
+        }
+
+        &-5 {
+            width: 150px;
         }
     }
 }
