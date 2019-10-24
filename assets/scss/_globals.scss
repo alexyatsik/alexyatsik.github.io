@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+p:after {
+    margin-bottom: 20px;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;

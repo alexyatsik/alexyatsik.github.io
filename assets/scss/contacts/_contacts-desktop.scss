@@ -1,4 +1,11 @@
-@import '../variables';
+//@import '../variables';
+
+.main {
+    height: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .contacts {
     padding-top: 30px;
@@ -11,19 +18,35 @@
     &__item {
         display: flex;
 
-        font-size: 30px;
+        padding: 7px 0;
+
+        font-size: 25px;
         font-weight: 400;
         color: $font-color;
     }
 
     &__type {
-        color: $title-color;
+        color: $font-color;
+        margin-right: 20px;
     }
 
     &__link {
+        color: $title-color;
 
         &:hover {
-            transform: scale(1.1);
+            animation: pulse 1s linear infinite;
+            
+            @keyframes pulse {
+                25% {
+                    transform: scale(0.9);
+                }
+
+                75% {
+                    transform: scale(1.1);
+                }
+            }
         }
+
+        
     }
 }

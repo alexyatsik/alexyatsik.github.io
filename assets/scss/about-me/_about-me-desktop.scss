@@ -1,9 +1,12 @@
-.welcome {
-    max-width: 100%;
-
-    text-align: center;
+.main {
+    height: unset;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
-.welcome + p {
-    margin-bottom: 20px;
+.welcome {
+    width: 90%;
+
+    text-align: left;
 }
