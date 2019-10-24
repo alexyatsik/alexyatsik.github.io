@@ -3,21 +3,27 @@
 }
 
 .skills {
+    padding-top: 30px;
 
     &__list {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
     }
 
     &__item {
         display: flex;
-        justify-content: center;
-        align-content: center;
+        flex-direction: column;
         
-        padding: 5px;
+        padding: 10px 40px;
 
-        color: $font-color;
+        font-size: 30px;
+        color: $title-color;
         font-weight: 700;
+    }
+
+    &__name,
+    &__mastery {
+        text-align: center;
     }
 }

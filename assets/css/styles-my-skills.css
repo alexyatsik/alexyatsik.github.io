@@ -160,18 +160,24 @@ body {
   align-items: stretch;
 }
 
+.skills {
+  padding-top: 30px;
+}
 .skills__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 .skills__item {
   display: flex;
-  justify-content: center;
-  align-content: center;
-  padding: 5px;
-  color: #8a8a8a;
+  flex-direction: column;
+  padding: 10px 40px;
+  font-size: 30px;
+  color: #cacaca;
   font-weight: 700;
+}
+.skills__name, .skills__mastery {
+  text-align: center;
 }
 
 /*# sourceMappingURL=styles-my-skills.css.map */
