@@ -156,6 +156,10 @@ body {
     z-index: 10;
   }
 }
+.main {
+  height: unset;
+}
+
 .portfolio__list {
   display: flex;
   justify-content: space-between;
