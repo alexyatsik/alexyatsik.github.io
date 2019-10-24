@@ -176,8 +176,13 @@ body {
   color: #cacaca;
   font-weight: 700;
 }
-.skills__name, .skills__mastery {
+.skills__name {
   text-align: center;
+}
+.skills__mastery {
+  min-width: 150px;
+  background-image: url("/assets/img/skills/skill-star-black.png");
+  background-repeat: repeat-y;
 }
 
 /*# sourceMappingURL=styles-my-skills.css.map */

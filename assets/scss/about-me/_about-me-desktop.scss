@@ -1,5 +1,9 @@
 .welcome {
-    max-width: 30%;
+    max-width: 100%;
 
     text-align: center;
+}
+
+.welcome + p {
+    margin-bottom: 20px;
 }
