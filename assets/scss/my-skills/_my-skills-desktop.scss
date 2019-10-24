@@ -30,14 +30,14 @@
         width: 150px;
         height: 30px;
 
-        position: relative;
+        //position: relative;
 
         background-image: url('/assets/img/skills/skill-star-black.png');
         background-repeat: repeat-x;
 
         align-self: center;
 
-        &::after {
+        /*&::after {
             content: '';
             display: block;
 
@@ -51,6 +51,49 @@
 
             background-image: url('/assets/img/skills/skill-star-yellow.png');
             background-repeat: no-repeat;
+        }*/
+    }
+
+    .mastery {
+
+        &-1 {
+            height: 30px;
+            width: 30px;
+
+            background-image: url('/assets/img/skills/skill-star-yellow.png');
+            background-repeat: repeat-x;
+        }
+
+        &-2 {
+            height: 30px;
+            width: 60px;
+
+            background-image: url('/assets/img/skills/skill-star-yellow.png');
+            background-repeat: repeat-x;
+        }
+
+        &-3 {
+            height: 30px;
+            width: 90px;
+
+            background-image: url('/assets/img/skills/skill-star-yellow.png');
+            background-repeat: repeat-x;
+        }
+
+        &-4 {
+            height: 30px;
+            width: 120px;
+
+            background-image: url('/assets/img/skills/skill-star-yellow.png');
+            background-repeat: repeat-x;
+        }
+
+        &-5 {
+            height: 30px;
+            width: 150px;
+
+            background-image: url('/assets/img/skills/skill-star-yellow.png');
+            background-repeat: repeat-x;
         }
     }
 }
