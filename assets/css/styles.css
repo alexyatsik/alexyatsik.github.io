@@ -124,13 +124,28 @@ body {
     align-items: center;
   }
 
+  .hamburger:hover .hamburger__opened {
+    display: block;
+  }
+  .hamburger:hover .hamburger__menu-stripes {
+    background-color: transparent;
+  }
+  .hamburger:hover .hamburger__menu-stripes:after {
+    transform: translateY(0px);
+    transform: rotate(45deg);
+  }
+  .hamburger:hover .hamburger__menu-stripes:before {
+    transform: translateY(0px);
+    transform: rotate(-45deg);
+  }
   .hamburger__icon {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
     width: 40px;
     height: 40px;
-    background-color: #2f2f2f;
+    background-color: transparent;
     z-index: 20;
   }
   .hamburger__menu-stripes {
@@ -153,7 +168,13 @@ body {
   }
   .hamburger__opened {
     display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
     z-index: 10;
+    background-color: black;
   }
 }
 .welcome {

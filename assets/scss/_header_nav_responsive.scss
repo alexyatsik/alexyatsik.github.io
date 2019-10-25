@@ -18,15 +18,36 @@
 
     .hamburger {
 
+        &:hover &__opened {
+            display: block;
+        }
+
+        &:hover &__menu-stripes {
+
+            background-color: transparent;
+            
+            &:after {
+                transform: translateY(0px);
+                transform: rotate(45deg);
+            }
+
+            &:before {
+                transform: translateY(0px);
+                transform: rotate(-45deg);
+            }
+        }
+
         &__icon {
             display: flex;
             justify-content: center;
             align-items: center;
 
+            position: relative;
+        
             width: 40px;
             height: 40px;
 
-            background-color: $bg-color;
+            background-color: transparent;
 
             z-index: 20;
         }
@@ -61,7 +82,16 @@
         &__opened {
             display: none;
 
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            width: 100vw;
+            height: 100vw;
+
             z-index: 10;
+
+            background-color: black;
         }
     }
 }
