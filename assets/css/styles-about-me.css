@@ -201,11 +201,6 @@ body {
 .education {
   margin-top: 40px;
 }
-.education__title {
-  color: #cacaca;
-  font-size: 40px;
-  font-weight: 700;
-}
 .education__list {
   margin-top: 20px;
   display: flex;
@@ -215,10 +210,10 @@ body {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
-  color: #8a8a8a;
+  /*color: $font-color;
   font-size: 20px;
   font-weight: 400;
-  line-height: 25px;
+  line-height: 25px;*/
 }
 
 /*# sourceMappingURL=styles-about-me.css.map */
