@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="/assets/css/reset.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
 
-    <title>YA - Home</title>
+    <title>YA - Main</title>
 </head>
 <body>
     <header class="header">
         <nav class="navigation header__navigation">
             <ul class="navigation__list">
-                <li class="navigation__item"><a href="/" class="navigation__link active link ">Home</a></li>
+                <li class="navigation__item"><a href="/" class="navigation__link active link ">Main</a></li>
                 <li class="navigation__item"><a href="/about-me" class="navigation__link link">About Me</a></li>
                 <li class="navigation__item"><a href="/portfolio" class="navigation__link link">Portfolio</a></li>
                 <li class="navigation__item"><a href="/my-skills" class="navigation__link link">My Skills</a></li>
@@ -23,26 +23,21 @@
             </ul>
         </nav>
         <div class="tiny-navigation">
-            <div class="active-page">Home</div>
+            <div class="active-page">Main</div>
             <div class="hamburger">
                 <div onclick="openNav()" class="hamburger__icon">
                     <div class="hamburger__menu-stripes"></div>
                 </div>
-
                 <div id="myNav" class="hamburger__opened">
-
                     <a href="#" class="hamburger__close" onclick="closeNav()">&times;</a>
-                    
-                    <div class="hamburger__nav">
-                        <a href="/" class="navigation__link active link ">Home</a>
+                    <nav class="hamburger__nav">
+                        <a href="/" class="navigation__link active link ">Main</a></li>
                         <a href="/about-me" class="navigation__link link">About Me</a>
                         <a href="/portfolio" class="navigation__link link">Portfolio</a>
                         <a href="/my-skills" class="navigation__link link">My Skills</a>
                         <a href="/contacts" class="navigation__link link">Contacts</a>
-                    </div>
-                      
+                    </nav>
                 </div>
-
             </div>
         </div>
     </header>

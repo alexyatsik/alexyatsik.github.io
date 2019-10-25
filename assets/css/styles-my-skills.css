@@ -165,13 +165,16 @@ body {
     position: relative;
     top: 25%;
     width: 100%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .hamburger__close {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px;
+    color: #8a8a8a;
   }
 }
 .main {
