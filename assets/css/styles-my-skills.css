@@ -147,7 +147,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     width: 40px;
     height: 40px;
     background-color: transparent;
@@ -178,6 +177,12 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: black;
+  }
+  .hamburger__item {
+    padding: 10px 0;
+  }
+  .hamburger__item .link {
+    font-size: 30px;
   }
 }
 .main {
@@ -229,6 +234,7 @@ body {
   width: 30px;
   background-image: url("/assets/img/skills/skill-star-yellow.png");
   background-repeat: repeat-x;
+  overflow: hidden;
 }
 .skills .mastery-2::after {
   width: 60px;
