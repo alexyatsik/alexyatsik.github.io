@@ -6,7 +6,40 @@
 }
 
 .welcome {
+    margin-top: 40px;
+
     width: 90%;
 
     text-align: left;
+}
+
+.education {
+    margin-top: 40px;
+
+    &__title {
+        color: $title-color;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    &__list {
+        margin-top: 20px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        margin-top: 10px;
+
+        display: flex;
+        flex-direction: column;
+
+        color: $font-color;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    
 }
