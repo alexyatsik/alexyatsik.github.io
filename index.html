@@ -25,18 +25,24 @@
         <div class="tiny-navigation">
             <div class="active-page">Home</div>
             <div class="hamburger">
-                <div class="hamburger__icon">
+                <div onclick="openNav()" class="hamburger__icon">
                     <div class="hamburger__menu-stripes"></div>
                 </div>
-                <div class="hamburger__opened">
-                    <ul class="hamburger__list">
-                        <li class="hamburger__item"><a href="/" class="navigation__link active link ">Home</a></li>
-                        <li class="hamburger__item"><a href="/about-me" class="navigation__link link">About Me</a></li>
-                        <li class="hamburger__item"><a href="/portfolio" class="navigation__link link">Portfolio</a></li>
-                        <li class="hamburger__item"><a href="/my-skills" class="navigation__link link">My Skills</a></li>
-                        <li class="hamburger__item"><a href="/contacts" class="navigation__link link">Contacts</a></li>
-                    </ul>
+
+                <div id="myNav" class="hamburger__opened">
+
+                    <a href="#" class="hamburger__close" onclick="closeNav()">&times;</a>
+                    
+                    <div class="hamburger__nav">
+                        <a href="/" class="navigation__link active link ">Home</a>
+                        <a href="/about-me" class="navigation__link link">About Me</a>
+                        <a href="/portfolio" class="navigation__link link">Portfolio</a>
+                        <a href="/my-skills" class="navigation__link link">My Skills</a>
+                        <a href="/contacts" class="navigation__link link">Contacts</a>
+                    </div>
+                      
                 </div>
+
             </div>
         </div>
     </header>
@@ -49,5 +55,6 @@
             <p class="text">I'm looking for a job in the IT-sphere.</p>
         </div>
     </main>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>
