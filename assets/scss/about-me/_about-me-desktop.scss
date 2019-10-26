@@ -30,11 +30,18 @@
         flex-direction: column;
     }
 
+    &__organization,
+    &__specialization,
+    &__degree {
+        display: block;
+        color: $title-color;
+        font-style: normal;
+    }
+
     &__organization {
          
         &::before {
             content: 'Organization: ';
-            display: block;
         }
     }
 
@@ -42,15 +49,12 @@
 
         &::before {
             content: 'Specalization: ';
-            display: block;
         }
     }
 
     &__degree {
         &::before {
             content: 'Degree: ';
-            display: block;
         }
     }
-
 }

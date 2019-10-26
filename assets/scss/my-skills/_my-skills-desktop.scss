@@ -1,5 +1,6 @@
 .main {
-    align-items: stretch;
+    flex-direction: column;
+    justify-content: unset;
 }
 
 .skills {
@@ -80,6 +81,14 @@
 }
 
 .read-books {
+
+    margin-top: 40px;
+
+    width: 100%; // a bug fix for IE11 with flex-wrap for child
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     &__item {
         font-style: italic;

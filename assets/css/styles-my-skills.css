@@ -181,7 +181,8 @@ body {
   }
 }
 .main {
-  align-items: stretch;
+  flex-direction: column;
+  justify-content: unset;
 }
 
 .skills {
@@ -236,6 +237,13 @@ body {
   width: 150px;
 }
 
+.read-books {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .read-books__item {
   font-style: italic;
 }
