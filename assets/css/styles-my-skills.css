@@ -183,15 +183,7 @@ body {
 
 .skills {
   padding-top: 30px;
-  /*&__mastery {
-      width: 150px;
-      height: 30px;
-
-      background-image: url('/assets/img/skills/skill-star-black.png');
-      background-repeat: repeat-x;
-
-      align-self: center;
-  }*/
+  width: 100%;
 }
 .skills__list {
   display: flex;

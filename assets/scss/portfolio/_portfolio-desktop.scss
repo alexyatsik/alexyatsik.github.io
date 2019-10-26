@@ -3,6 +3,7 @@
 }
 
 .portfolio {
+    width: 100%; // a bug fix for IE11 with flex-wrap for child
 
     &__list {
         display: flex;

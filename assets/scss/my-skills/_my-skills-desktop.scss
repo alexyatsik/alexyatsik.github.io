@@ -4,6 +4,7 @@
 
 .skills {
     padding-top: 30px;
+    width: 100%; // a bug fix for IE11 with flex-wrap for child
 
     &__list {
         display: flex;
@@ -25,16 +26,6 @@
     &__name {
         text-align: center;
     }
-
-    /*&__mastery {
-        width: 150px;
-        height: 30px;
-
-        background-image: url('/assets/img/skills/skill-star-black.png');
-        background-repeat: repeat-x;
-
-        align-self: center;
-    }*/
 
     .mastery {
 
