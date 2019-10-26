@@ -206,18 +206,20 @@ body {
   display: flex;
   flex-direction: column;
 }
-.education__organization::before, .education__specialization::before, .education__degree::before {
+.education__organization::before {
+  content: "Organization: ";
   color: #cacaca;
   font-style: normal;
 }
-.education__organization::before {
-  content: "Organization: ";
-}
 .education__specialization::before {
   content: "Specalization: ";
+  color: #cacaca;
+  font-style: normal;
 }
 .education__degree::before {
   content: "Degree: ";
+  color: #cacaca;
+  font-style: normal;
 }
 
 /*# sourceMappingURL=styles-about-me.css.map */
