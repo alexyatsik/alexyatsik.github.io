@@ -206,8 +206,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.education__organization, .education__specialization, .education__degree {
-  display: block;
+.education__organization::before, .education__specialization::before, .education__degree::before {
   color: #cacaca;
   font-style: normal;
 }

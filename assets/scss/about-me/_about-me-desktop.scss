@@ -33,9 +33,11 @@
     &__organization,
     &__specialization,
     &__degree {
-        display: block;
-        color: $title-color;
-        font-style: normal;
+
+        &::before {
+            color: $title-color;
+            font-style: normal;
+        }
     }
 
     &__organization {
