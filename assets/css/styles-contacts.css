@@ -245,6 +245,21 @@ body {
   font-weight: 400;
   color: #8a8a8a;
 }
+.contacts__item:hover {
+  transform: scale(1);
+}
+.contacts__item:hover .contacts__item__link {
+  transform: scale(1);
+  animation: pulse 1s linear infinite;
+}
+@keyframes pulse {
+  25% {
+    transform: scale(0.9);
+  }
+  75% {
+    transform: scale(1.1);
+  }
+}
 .contacts__type {
   color: #8a8a8a;
   margin-right: 20px;

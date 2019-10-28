@@ -68,6 +68,26 @@
         font-size: 25px;
         font-weight: 400;
         color: $font-color;
+
+        &:hover {
+            transform: scale(1);
+        }
+
+        &:hover &__link {
+            transform: scale(1);
+
+            animation: pulse 1s linear infinite;
+            
+            @keyframes pulse {
+                25% {
+                    transform: scale(0.9);
+                }
+
+                75% {
+                    transform: scale(1.1);
+                }
+            }
+        }
     }
 
     &__type {
