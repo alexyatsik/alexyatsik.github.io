@@ -76,6 +76,7 @@
     }
 
     &__link {
+        display: inline-block;
         color: $title-color;
 
         &:hover {
