@@ -1,8 +1,7 @@
 .main {
-    height: calc(100vh - 81px);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 100%;
+    min-height: unset;
+    
 }
 
 .contacts {
