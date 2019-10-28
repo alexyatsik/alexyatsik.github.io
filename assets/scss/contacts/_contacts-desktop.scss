@@ -73,7 +73,7 @@
             transform: scale(1);
         }
 
-        &:hover &__link {
+        &:hover .contacts__link {
             animation: pulse 1s linear infinite;
             
             @keyframes pulse {

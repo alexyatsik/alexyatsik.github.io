@@ -248,7 +248,7 @@ body {
 .contacts__item:hover {
   transform: scale(1);
 }
-.contacts__item:hover .contacts__item__link {
+.contacts__item:hover .contacts__link {
   animation: pulse 1s linear infinite;
 }
 @keyframes pulse {
