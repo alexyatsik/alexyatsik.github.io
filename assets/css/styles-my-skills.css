@@ -238,7 +238,7 @@ body {
 }
 
 .read-books {
-  margin-top: 40px;
+  margin: 40px 0;
   width: 100%;
   display: flex;
   flex-direction: column;
