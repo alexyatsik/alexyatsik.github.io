@@ -185,15 +185,61 @@ body {
   min-height: unset;
 }
 
+/*.contacts {
+    padding-top: 30px;
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__item {
+        display: flex;
+
+        padding: 7px 0;
+
+        font-size: 25px;
+        font-weight: 400;
+        color: $font-color;
+    }
+
+    &__type {
+        color: $font-color;
+        margin-right: 20px;
+    }
+
+    &__link {
+        color: $title-color;
+
+        &:hover {
+            animation: pulse 1s linear infinite;
+
+            @keyframes pulse {
+                25% {
+                    transform: scale(0.9);
+                }
+
+                75% {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}*/
 .contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 30px;
 }
 .contacts__list {
   display: flex;
   flex-direction: column;
 }
+.contacts__list--align-items_end {
+  align-items: flex-end;
+}
 .contacts__item {
-  display: flex;
   padding: 7px 0;
   font-size: 25px;
   font-weight: 400;
@@ -218,54 +264,12 @@ body {
   }
 }
 
-.contacts-beta {
-  display: none;
-  justify-content: center;
-  align-items: center;
-  padding-top: 30px;
-}
-.contacts-beta__list {
-  display: flex;
-  flex-direction: column;
-}
-.contacts-beta__list--justify-content_start {
-  justify-content: flex-start;
-}
-.contacts-beta__list--justify-content_end {
-  justify-content: flex-end;
-}
-.contacts-beta__item {
-  padding: 7px 0;
-  font-size: 25px;
-  font-weight: 400;
-  color: #8a8a8a;
-}
-.contacts-beta__type {
-  color: #8a8a8a;
-  margin-right: 20px;
-}
-.contacts-beta__link {
-  color: #cacaca;
-}
-.contacts-beta__link:hover {
-  animation: pulse 1s linear infinite;
-}
-@keyframes pulse {
-  25% {
-    transform: scale(0.9);
-  }
-  75% {
-    transform: scale(1.1);
-  }
-}
-
 @media (max-width: 470px) {
   .contacts__item {
     font-size: 16px;
   }
-
-  .contacts-beta__item {
-    font-size: 16px;
+  .contacts__type {
+    margin-right: 10px;
   }
 }
 
