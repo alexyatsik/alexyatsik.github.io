@@ -249,7 +249,6 @@ body {
   transform: scale(1);
 }
 .contacts__item:hover .contacts__item__link {
-  transform: scale(1);
   animation: pulse 1s linear infinite;
 }
 @keyframes pulse {
@@ -266,17 +265,19 @@ body {
 }
 .contacts__link {
   color: #cacaca;
-}
-.contacts__link:hover {
-  animation: pulse 1s linear infinite;
-}
-@keyframes pulse {
-  25% {
-    transform: scale(0.9);
-  }
-  75% {
-    transform: scale(1.1);
-  }
+  /*&:hover {
+      animation: pulse 1s linear infinite;
+
+      @keyframes pulse {
+          25% {
+              transform: scale(0.9);
+          }
+
+          75% {
+              transform: scale(1.1);
+          }
+      }
+  }*/
 }
 
 @media (max-width: 470px) {
